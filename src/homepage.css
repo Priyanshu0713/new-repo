@@ -1,0 +1,60 @@
+.Full-page{
+  margin: 50px 190px;
+  overflow: hidden;
+  background-color:#ffffff;
+    padding: 10px 250px;
+    border-radius: 2%;
+    overflow: auto;
+}
+.Our-mission{
+  text-align: center; 
+}
+.our{
+  color: rgb(31, 31, 97);
+}
+
+.List-item li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    margin: 20px 10px; 
+  }
+ .List-item{
+   display: flex;
+   padding: 10px 60px;
+} 
+.about-expend{
+  color: rgb(11, 11, 37);
+  padding-left: 10%;
+ }
+ .about-class{
+  padding-left: 10%;
+  display: flex;
+ }
+.image{
+   width: 30%;
+   height: auto;
+   float: right;
+}
+.in-up{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 7%;
+  padding-top: 2%;
+}
+.in-up li a{
+    text-decoration: none;
+    color: rgb(7, 6, 12);
+    background-color: rgb(210, 241, 11);
+    overflow: auto;
+    padding: 5px 30px;
+    border-radius: 5px 5px;
+}
+.in-up li a:hover{
+  color: rgb(205, 10, 10);
+}
+.in-up li{
+      float: left;
+      font-size: medium;
+      list-style-type: none;
+
+}
+

@@ -1,0 +1,59 @@
+.form{
+    background-color: #252424;
+  }
+
+.Signup{
+    padding: 50px 550px;
+    overflow: auto;
+    background-color:#252424;
+    border-radius: 2%;
+    margin: 20px 60px;
+  }
+  
+.form{
+    overflow: auto;
+    padding: 5px;
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+.signupform{
+    padding-inline: 50px;
+    color: rgb(136, 239, 104);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+.fname{
+      padding: 3px;
+      border-radius: 20px 20px;
+      color: rgb(32, 23, 23);
+  
+      }
+.lname{
+      padding: 3px;
+      border-radius: 20px 20px;
+    }
+.passw{
+      padding: 3px;
+      border-radius: 20px 20px;
+  
+    }
+.conpass{
+      padding: 3px;
+      border-radius: 20px 20px;
+    }
+.phoneno{
+      padding: 3px;
+      border-radius: 20px 20px;
+    }
+.dob{
+      border-radius: 20px 20px;
+    }
+.email{
+      padding: 3px;
+      border-radius: 20px 20px;
+    }
+.submi{
+      background-color: rgb(75, 167, 75);
+    border-radius: 20px 20px;
+    overflow: auto;
+    padding: 5px 50px;
+    }
