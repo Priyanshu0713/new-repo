@@ -1,0 +1,66 @@
+.whole-page{
+    background-color:rgb(35, 52, 47);
+    padding: 2%;
+    padding-bottom: 100%;
+}
+
+.navbar{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(35, 52, 47);
+    padding: 3px 10px;
+    margin: 7%;
+}
+.navbar ul{
+    overflow:auto;
+}
+.navbar li{
+    float: left;
+    list-style:none;
+    margin: 7px 20px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    
+}
+.navbar li a:hover{
+    color:rgb(255, 255, 255)
+}
+
+.bar{
+    display: flex;
+    background-color:   rgb(35, 52, 47);
+    color: rgb(26, 192, 142);
+    /* border-radius: 20px 20px; */
+    padding-left: 30%;
+}
+
+.header{
+    font-size: 150%;
+    font-weight: 300;
+    text-align: center;
+    text-decoration:solid;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(26, 192, 142);
+    background-color:  rgb(35, 52, 47);  
+    padding: 2px 40px;
+    margin-bottom: 1%;
+    margin-top: 1px 1px;
+    margin: 9%;
+}
+
+.btn{
+    background-color: rgb(75, 167, 75);
+    border-radius: 20px 20px;
+    overflow: auto;
+    padding: 5px 30px;
+    margin-left: 47%;
+}
+.btn2{
+    background-color: rgb(75, 167, 75);
+    border-radius: 20px 20px;
+    overflow: auto;
+    padding: 5px 30px;
+    margin-left: 45%;
+    margin-top: 1%;
+}

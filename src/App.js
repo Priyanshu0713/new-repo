@@ -6,7 +6,11 @@ import Homepage from './homepage';
 import './homepage.css'
 import Signin from './signin';
 import Signup from './signup';
-import { BrowserRouter, Route, Routes ,Switch} from 'react-router-dom';
+
+import HomeUi from './UI/homeUi';
+import './UI/homeUi.css'
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
 
 
@@ -15,9 +19,12 @@ function App() {
     <BrowserRouter>
     <Routes>
       
-       <Route exact path="/" element={<Homepage />} />
-       <Route path="/Signin" element={<Signin />} />
-       <Route path="/signup" element={<Signup />} />
+       <Route path="/" element={<HomeUi />} />
+       <Route path='/Home' element={<Signin/>}/>
+       <Route path="/Wallet" element={<Signin />} />
+       <Route path="/Refer & Earn" element={<Signin />} />
+       <Route path="/Profile" element={<Signin />} />
+       <Route path="/Recent" element={<Signin />} />
        
     </Routes>
  </BrowserRouter>
