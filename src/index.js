@@ -22,8 +22,8 @@ root.render(
     {/* <App /> */}
     {/* <Usestatedemo/> */}
     {/* <HomeUi/> */}
-    {/* <App/> */}
-    <InterestCalc/>
+    <App/>
+    {/* <InterestCalc/> */}
     {/* <InterestCalc/> */}
 
   </React.StrictMode>
