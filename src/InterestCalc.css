@@ -1,12 +1,10 @@
-.whole-page{
-    
-}
 .page{
     text-align: center;
     color: white;
     padding-left: 35%;
     padding-right: 35%;
     padding-top: 10%;
+    border-radius: 10%;
 }
 .int-back{
     background-color: rgb(43, 43, 132);
@@ -31,6 +29,7 @@
 .Principal-Amount{
     display: block;
     margin: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .Year{
     display: block;
