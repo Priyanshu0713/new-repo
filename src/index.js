@@ -11,6 +11,7 @@ import Usestatedemo from './usestatedemo';
 import InterestCalc from './interestCalc';
 import './InterestCalc.css';
 
+import Animation from './animation';
 // import Printphno from './printphno';
 // import { BrowserRouter, Route, Routes ,Switch} from 'react-router-dom';
 
@@ -23,8 +24,10 @@ root.render(
     {/* <Usestatedemo/> */}
     {/* <HomeUi/> */}
     {/* <App/> */}
-    <InterestCalc/>
     {/* <InterestCalc/> */}
+    <Animation/>
+    {/* <ProgressiveSignupForm/> */}
+
 
   </React.StrictMode>
 );
