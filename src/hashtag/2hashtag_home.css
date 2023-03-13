@@ -1,0 +1,144 @@
+/* Styles for screens larger than 600px */
+
+@media (max-width: 300px) {
+  wholepage{
+    font-size: 35%;
+  }
+}
+
+/* CSS rules for screens between 301px and 600px wide */
+
+@media (min-width: 301px) and (max-width: 600px) {
+  wholepage{
+    font-size: 45%;
+  }
+}
+
+/* CSS rules for screens between 601px and 900px wide */
+
+@media (min-width: 601px) and (max-width: 900px) {
+ wholepage{
+    font-size: 55%;
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* Media queries for small screens (up to 600px) */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.hashtag_navbar a {
+  position: absolute;
+  top: 6.5%;
+  right: 10%;
+  color: black;
+  font-size: 2ch;
+  text-decoration: none;
+  list-style: none;
+}
+.hashtag_navbar :hover {
+  color: #6e07f3;
+  /* background-color: blue; */
+}
+.say a {
+  color: #6e07f3;
+}
+.say a:hover {
+  background-color: #6e07f3;
+  color: white;
+}
+
+/* .blue_bar{
+    position: absolute;
+    top: 150%;
+    left: 0%;
+    right: 0%;
+    background-color: blue;
+    color: white;
+    height: 200px;
+}
+.blue_bar_content p{
+    display: flex;
+}
+.blue_bar_content{
+    text-align: center;
+} */
+
+.blue_bar {
+  background-color: #6e07f3;
+  height: 650px;
+  position: absolute;
+  top: 140%;
+  left: 0%;
+  right: 0%;
+}
+
+.blue_bar_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.blue_bar_content h1 {
+  color: white;
+  font-size: 200%;
+}
+
+.blue_bar_content p {
+  color: white;
+  text-align: center;
+  width: 62%;
+  /* font-family:Georgia, 'Times New Roman', Times, serif; */
+  font-size: 21px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> designer */
+
+.designer {
+  /* background-color: rgb(180, 0, 0); */
+  position: absolute;
+  top: 213.5%;
+  width: 100%;
+}
+.design {
+  font-family: 26px "eurostile", sans-serif;
+  font-size: 130;
+}
+.interested {
+  font-family: 24px "eurostile", sans-serif;
+}
+.start a {
+  color: #6e07f3;
+}
+.start a:hover {
+  background-color: #6e07f3;
+  color: white;
+}
+.project {
+  padding-left: 10%;
+
+  /* background-color: #6E07F3; */
+}
+.project h1 {
+  /* display: inline-block; */
+  margin-right: 50px;
+}
+.project p {
+  margin-top: 30px;
+  /* color: white; */
+}
+.project a:hover {
+  background-color: #58d098;
+  color: black;
+}
+/* .project p:hover{
+    background-color: #58d098;
+    color: black;
+} */
+.project a {
+  color: white;
+}

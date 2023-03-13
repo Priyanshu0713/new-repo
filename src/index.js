@@ -3,32 +3,44 @@ import ReactDOM from 'react-dom/client';
 import './index.css'; 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Usestatedemo from './usestatedemo';
 
-// import HomeUi from './UI/homeUi';
-// import './UI/homeUi.css';
+import './UI/homeUi.css';
 
-import InterestCalc from './interestCalc';
 import './InterestCalc.css';
 
-import Animation from './animation';
+import './animation'
+
+// import AnimationStyle from './anim2';
+import Demostyle from './demostyle'
 // import Printphno from './printphno';
-// import { BrowserRouter, Route, Routes ,Switch} from 'react-router-dom';
+import { BrowserRouter, Route, Routes ,Switch} from 'react-router-dom';
+import './cityTable.css';
+import CityTable from './cityTableDemo'
+
+import New_project from './Mini Project/new_project';
+import Homepage from './homepage';
+import './homepage.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     
-    {/* <App /> */}
+    {/* <Home/> */}
+    {/* <Signinn/> */}
+    {/* <Homepage/> */}
+   
     {/* <Usestatedemo/> */}
     {/* <HomeUi/> */}
-    {/* <App/> */}
+    <App/>
+    {/* <New_project/> */}
     {/* <InterestCalc/> */}
-    <Animation/>
+    {/* <Animation/> */}
+    {/* <Demostyle/> */}
+      {/* <CityTable/> */}
+    {/* <AnimationStyle /> */}
     {/* <ProgressiveSignupForm/> */}
-
-
+   
   </React.StrictMode>
 );
 

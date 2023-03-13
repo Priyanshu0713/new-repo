@@ -1,0 +1,163 @@
+.Navbar{
+    display: flex;
+    margin: 50px;
+    background-color:#343a40;
+    /* color:  rgb(145, 133, 133); */
+    text-decoration: none;
+    /* display: inline-block; */
+    vertical-align: 0.255em;
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 12px;
+    list-style-type: none;
+    
+}
+.Navbar a{
+    color: rgb(136, 132, 127);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .9375rem;
+    font-weight: 500;
+    line-height: 1.5;
+    /* text-align: left; */
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 5px;
+}
+.Navbar li a:hover {
+    color: rgb(236, 219, 219);
+    /* display: none; */
+    
+}
+.Log_in{
+    margin-left: auto;
+    color: rgb(136, 132, 127);
+}
+
+/* .img_img{
+    
+    border: "10% solid black";
+    border-radius: "30px 30px";
+    
+} */
+
+/* .img{
+    padding-top: 50px;
+    height: 50%;
+    width: 90%;
+    border-radius: 5px 5px;
+} */
+.home a{
+    text-decoration: none;
+    padding-left: 10px;
+    position: absolute;
+    bottom: 10%;
+}
+.home a:hover{
+    text-decoration: underline;
+}
+.Navigation a{
+    font-size: 15px;
+    text-decoration: none;
+    color: blue;
+}
+.Navigation a:hover{
+    text-decoration: underline;
+}
+.Navigation p{
+    font-size: 23px;
+    font-weight: 200;
+}
+.Navigation{
+    padding: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.Welcome{
+    /* position: absolute;
+    top: 30%;;
+    right: 1%; */
+    padding: 5%;
+}
+.Welcome p{
+    color: #343a40;
+}
+/* .Welcome{
+    padding: 10px;
+} */
+.Welcome a{
+    text-decoration: none;
+    color: blue;
+}
+.Welcome a:hover{
+    text-decoration: underline;
+}
+.calender{
+    position: absolute;
+    top: 73%;;
+    right: 0;
+    padding: 20px;
+}
+.calender1{
+    padding: 10px;
+}
+.Upcomming{
+    position: absolute;
+    top: 130%;;
+    right: 0;
+    padding: 20px;
+}
+.Upcomming a{
+    text-decoration: none;
+    color: blue;
+}
+.Upcomming1 a:hover{
+    text-decoration: underline;
+}
+.Upcomming1{
+    padding: 10px;
+}
+.site {
+    position: absolute;
+    top: 32.8%;
+    left: 19.5%;
+    /* transform: translate(-70%, -50%); */
+  }
+  
+.site_img{
+    height: 50%;
+    width: 90%;
+    padding-left: 10%;
+    border-radius: 5px 5px;
+}
+.news_updates{
+    width:100%
+}
+.site_news{
+    padding: 5%;
+}
+.site_news p{
+    font-size: 30px;
+    font-weight: 150;
+    position: relative;
+    left: 0;
+}
+.latest{
+    position: absolute;
+    top: 63%;
+    left: 0.5%;
+    
+}
+.latest1{
+    padding: 5%;
+}
+.latest a{
+    text-decoration: none;
+    color: blue;
+}
+.latest a:hover{
+    text-decoration: underline;
+}
